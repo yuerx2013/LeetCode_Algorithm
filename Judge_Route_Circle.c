@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-
+/*计算标志位计算是否回到原点*/
 int judgeCircle(char* moves) {
     
     int len = strlen(moves);
