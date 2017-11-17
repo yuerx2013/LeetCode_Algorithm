@@ -1,4 +1,5 @@
 #include <stdio.h>
+/*汉明距离，条件很重要*/
 
 int hammingDistance(int x, int y) {
     int i=0,ret=0;
