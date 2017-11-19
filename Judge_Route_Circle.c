@@ -41,6 +41,7 @@ int judgeCircle(char* moves) {
 int main()
 {
 	int ret;
+	
 	ret = judgeCircle("LL");
 	printf("ret:%d\n",ret);
 	return 0;
