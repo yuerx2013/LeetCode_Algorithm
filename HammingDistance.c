@@ -13,7 +13,6 @@ int hammingDistance(int x, int y) {
         x=x/2;
         y=y/2;
     } 
-    
     return ret;
 }
 
