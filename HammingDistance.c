@@ -24,5 +24,6 @@ int hammingDistance(int x, int y) {
 int main()
 {
   hammingDistance(1,4);
+    
   return 0;
 }
