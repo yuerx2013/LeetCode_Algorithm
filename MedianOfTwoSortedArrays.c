@@ -50,11 +50,10 @@ double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Si
 int main()
 {
   int nums1[1]={100000};
-	int nums2[1]={100001};
-	double ret;
+  int nums2[1]={100001};
+  double ret;
+  ret = findMedianSortedArrays(nums1,1,nums2,1);
+  printf("ret:%f\n",ret);
   
-	ret = findMedianSortedArrays(nums1,1,nums2,1);
-	printf("ret:%f\n",ret);
-  
-	return 0;
+  return 0;
 }
