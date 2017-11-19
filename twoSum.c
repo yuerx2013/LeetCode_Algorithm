@@ -31,9 +31,7 @@ int main()
   int nums[4]={3,2,4,6};
  
   ret = twoSum(nums,4,9);
- 
   printf("ret:%d %d\n",ret[0],ret[1]);
- 
   return 0;
 }
 
