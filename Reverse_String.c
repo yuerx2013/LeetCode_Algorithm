@@ -25,10 +25,7 @@ int main()
 {
   char *buf="hello";
 	char *ret;
-	
 	ret = reverseString(buf);
-	
 	printf("ret:%s\n",ret);
-	
 	return 0;
 }
