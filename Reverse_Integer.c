@@ -27,7 +27,7 @@ int reverse(int x) {
 int main()
 {
   int ret;
-	ret = reverse(2147483647);
-	printf("ret:%d\n",ret);
-	return 0;
+  ret = reverse(2147483647);
+  printf("ret:%d\n",ret);
+  return 0;
 }
