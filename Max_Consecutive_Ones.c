@@ -20,13 +20,12 @@ int findMaxConsecutiveOnes(int* nums, int numsSize) {
             temp = flag;
         }
     }
-    
     return temp;
 }
 
 int main()
 {
   int nums[1]={1};
-  findMaxConsecutiveOnes(nums,);
+  findMaxConsecutiveOnes(nums,1);
   return 0;
 }
